@@ -1,0 +1,240 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+body {
+	font-family: Calibri Light;
+	background-color: #E8E8E8;
+}
+
+body > header {
+	font-family: Brush Script MT;
+	font-weight: bold;
+	font-size: 40px;
+	background-image: linear-gradient(#1c1919, #1c1919, #1c1919, #E8E8E8);
+	padding: 15px;
+	overflow: hidden;
+}
+
+body > header > img {
+	width: 9%;
+	height: auto;
+	margin-left: 50px;
+	margin-right: 20px;
+	float: left;
+}
+
+body > header > p {
+	font-size: 85px;
+	display: inline-block;
+	margin: 35px 0px;
+	color: #F7CA25;
+}
+
+body > header > nav {
+	float: right;
+	margin-top: 135px;
+	margin-right: 10px;
+}
+
+body > header > nav > ul > li {
+	display: inline-block;
+}
+
+main {
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+
+main > nav {
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+main > nav > ul > li {
+	display: inline-block;
+	margin: 20px;
+}
+
+main > nav > ul > li > a {
+	color: black;
+	font-weight: bold;
+	padding: 8px;
+}
+
+main > nav > ul > li:hover > a {
+	background-color: black;
+	color: #F7CA25;
+	border-radius: 8px;
+}
+
+main > nav > ul > li.active > a {
+	background-color: #F7CA25;
+	color: black;
+	border-radius: 8px;
+}
+
+#tekst {
+	margin: auto;
+	text-align: left;
+	width: 800px;
+	padding: 20px;
+	border: solid 5px;
+	border-radius: 20px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+#tekst-i-slika {
+	margin: auto;
+	text-align: left;
+	width: 1000px;
+	padding: 20px;
+	border: solid 5px;
+	border-radius: 20px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+#tekst-i-slika > p {
+	width: 63%;
+	display: inline-block;
+	padding-bottom: 30px;
+}
+
+#tekst-i-slika > img {
+	width: 30%;
+	height: auto;
+	border: solid 3px;
+	border-radius: 20px;
+	margin-left: 35px;
+}
+
+#slike {
+	margin: auto;
+	text-align: left;
+	width: 1000px;
+	padding: 30px;
+	border: solid 5px;
+	border-radius: 20px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+#slike > article > img {
+	width: 30%;
+	height: auto;
+	border: solid 3px;
+	border-radius: 20px;
+	margin: 12px;
+}
+
+#meni {
+	margin: auto;
+	text-align: left;
+	width: 1000px;
+	padding: 30px;
+	border: solid 5px;
+	border-radius: 20px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+#meni > article > img {
+	width: 30%;
+	height: auto;
+	border: solid 3px;
+	border-radius: 20px;
+	margin: 12px;
+}
+
+#naruci {
+	margin: auto;
+	text-align: center;
+	width: 1000px;
+	padding: 30px;
+	border: solid 5px;
+	border-radius: 20px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+#naziv, #adresa, #telefon, #email, #kolicina, #kreditna, #kod, #datum {
+	width: 300px;
+	height:35px;
+	padding-left: 10px;
+	border: solid 3px;
+	border-radius: 5px;
+}
+
+#pica {
+	width: 317px;
+	height:35px;
+	padding-left: 10px;
+	border: solid 3px;
+	border-radius: 5px;
+}
+
+#potvrdi {
+	width: 150px;
+	height: 45px;
+	font-size: 25px;
+	background-color: #F7CA25;
+	border-radius: 10px;
+	border: none;
+}
+
+#potvrda {
+	margin: auto;
+	text-align: left;
+	width: 1000px;
+	padding: 30px;
+	border: solid 5px;
+	border-radius: 20px;
+	background-color: white;
+	margin-bottom: 166px;
+	font-size: 20px;
+	font-weight: 50;
+}
+
+#potvrda > h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+#kontakt {
+	margin: auto;
+	text-align: center;
+	width: 1000px;
+	padding: 30px;
+	border: solid 5px;
+	border-radius: 20px;
+	background-color: white;
+	margin-bottom: 131px;
+}
+
+#kontakt > h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+#komentar {
+	width: 300px;
+	height:100px;
+	padding-left: 10px;
+	border: solid 3px;
+	border-radius: 5px;
+}
+
+footer {
+	padding: 30px 0px;
+	background-image: linear-gradient(#E8E8E8, #1c1919, #1c1919);
+	text-align: center;
+	font-size: 15px;
+	color: #F7CA25;
+}

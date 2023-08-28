@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Pizza Shop</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="icon" href="slike/logo.png" />
+		<script type="text/javascript" src="javascript.js"></script>
+	</head>
+	
+	<body>
+		<header>
+			<img id="logo" src="slike/logo.png" />
+			<p id="ime">Pizza Madre</p>
+			
+			<nav>
+				<ul>
+					<li><a href="https://www.instagram.com" target="_blank"><img src="slike/instagram.png" /></a></li>
+					<li><a href="https://www.facebook.com" target="_blank"><img src="slike/facebook.png" /></a></li>
+					<li><a href="https://www.twitter.com" target="_blank"><img src="slike/twitter.png" /></a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<main>
+		
+			<nav>
+				<ul id="tabovi">
+					<li><a href="index.html">POČETNA</a></li>
+					<li><a href="meni.html">MENI</a></li>
+					<li><a href="naruči.html">NARUČI</a></li>
+					<li class="active"><a href="#">KONTAKT</a></li>
+				</ul>
+			</nav>
+			
+			<div id="kontakt">
+				<h1>KONTAKT</h1><br/>
+				<form name="kontakt" method="POST" action="kontakt.php" target="_blank">
+					<input type="text" name="naziv" id="naziv" placeholder="Ime i prezime" onkeyup="proveraNaziv()"/><br/><br/>
+					<input type="email" name="email" id="email" placeholder="E-Mail" onkeyup="proveraEmail()"/><br/><br/>
+					<textarea id="komentar" name="komentar" placeholder="Unesite komentar" maxlength="1000"></textarea><br/><br/>
+					<input type="submit" name="potvrdi" id="potvrdi" value="Pošalji"/>
+				</form>
+			</div>
+		
+		</main>
+		
+		<footer>
+			Igor Mišić 2019201487 | Univerzitet Singidunum
+		</footer>
+	</body>
+	
+	
+</html>
